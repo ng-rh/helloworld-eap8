@@ -1,0 +1,18 @@
+---
+schemaVersion: "2.0.0"
+repositories:
+  - id: "redhat-public-repo"
+    url: "https://maven.repository.redhat.com/ga/"
+  - id: "public-repo"
+    url: "https://repo1.maven.org/maven2/"
+  - id: "jboss-public-maven-repository"
+    url: "https://repository.jboss.org/nexus/content/groups/public/"
+  - id: "redhat-ga-maven-repository"
+    url: "https://maven.repository.redhat.com/ga/"
+  - id: "central"
+    url: "https://repo.maven.apache.org/maven2"
+manifest:
+  maven:
+    groupId: "org.jboss.eap.channels"
+    artifactId: "eap-8.0"
+noStreamStrategy: "none"
