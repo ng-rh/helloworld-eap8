@@ -1,0 +1,6 @@
+build:
+  uri: https://github.com/ng-rh/helloworld-eap8.git    
+  ref: main                                  
+  contextDir: .                              
+deploy:
+  replicas: 1                                         
